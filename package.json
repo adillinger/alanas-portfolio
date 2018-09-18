@@ -1,0 +1,21 @@
+{
+  "name": "alanas-resume-website",
+  "version": "1.0.0",
+  "description": "Project setting up my website",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server index.js"
+  },
+  "author": "Alana Dillinger",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.7"
+  }
+}
