@@ -11,9 +11,22 @@ body, html {
 
 body, h1, h2, h3, h4, h5, h6 {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
   color:aliceblue;
 }
+
+.lead{
+  font-weight: 100;
+  max-width: 75%;
+}
+
+p{
+  font-weight: 100;
+}
+
+.h2{
+  text-align: center;
+}
+
 .h4{
   text-align: center;
   font-weight:normal;
@@ -165,6 +178,7 @@ p.copyright {
 }
 .row{
   width:100%;
+  margin-left: 30px;
 }
 
 .bar {
@@ -178,51 +192,6 @@ p.copyright {
 .myskills {
   text-align: left; /* Right-align text */
   padding-right: 20px; /* Add some right padding */
-  line-height: 1rem; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+  line-height: 1.75rem;
   color: #black; /* White text color */
-}
-
-.java {
-  width: 80%;
-  background-color: cadetblue;
-}
-.html {
-  width: 70%;
-  background-color: cadetblue;
-}
-.css {
-  width: 60%;
-  background-color: cadetblue;
-}
-.c {
-  width: 65%;
-  background-color: cadetblue;
-}
-.processing {
-  width: 55%;
-  background-color: cadetblue;
-}
-.android {
-  width: 25%;
-  background-color: cadetblue;
-}
-.react {
-  width: 30%;
-  background-color: cadetblue;
-}
-.arduino {
-  width: 45%;
-  background-color: cadetblue;
-}
-.raspberry {
-  width: 35%;
-  background-color: cadetblue;
-}
-.git {
-  width: 75%;
-  background-color: cadetblue;
-}
-.webdev {
-  width: 50%;
-  background-color: cadetblue;
 }
