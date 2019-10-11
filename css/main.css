@@ -4,12 +4,13 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
  */
 
-body, html {
+body{
   width: 100%;
   height: 100%;
+  background-color: cadetblue;
 }
 
-body, h1, h2, h3, h4, h5, h6 {
+body, h2, h3, h4, h5, h6 {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:aliceblue;
 }
@@ -30,168 +31,145 @@ p{
 .h4{
   text-align: center;
   font-weight:normal;
+}
 
+button{
+  background-color: grey;
+  color: white;
+  border-radius: 12px;
+}
+
+.button {
+  background-color: grey;
+  border: none;
+  color: aliceblue;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button:hover {
+  transition: background-color .25s ease-out, color .25s ease-out;
+  background-color: grey;
+  cursor: pointer;
+}
+
+.intro-button{
+  background-color: aliceblue;
+  color:darkslategrey;
+  font-size: 24px;
+  font-weight:bold;
 }
 
 .intro-header {
-  padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
   color: #f8f8f8;
-  background: url(../img/background.jpg) no-repeat center center;
+  background: cadetblue;
   background-size: cover;
 }
 
 .intro-message {
   position: relative;
-  padding-top: 20%;
   padding-bottom: 20%;
-}
-
-.intro-message>h1 {
-  margin: 0;
-  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-  font-size: 5em;
+  color: darkslategray;
 }
 
 .intro-divider {
-  width: 400px;
+  width: 50%;
+  margin-left:25%;
+  margin-right:25%;
+  padding-top:10px;
+  padding-bottom:10px;
   border-top: 1px solid #f8f8f8;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
 
-.intro-message>h3 {
-  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+.intro-section{
+  width:100%;
+  height:130%;
+  align-content:center;
+  background-image:url("../img/alana.jpg");
+  background-size:130%;
+  overflow: hidden;
 }
 
-.intro-social-buttons i {
-  font-size: 80%;
+.column1{
+  width:100%;
+  align-content:center;
+  display:inline-block;
+}
+.column2{
+  width:100%;
+}
+.skills-section{
+  display:inline;
+  align-content:center;
+  background-color:cadetblue;
+  padding:30px;
+  width:100%;
 }
 
-@media(max-width:767px) {
-  .intro-message {
-    padding-bottom: 15%;
-  }
-  .intro-message>h1 {
-    font-size: 3em;
-  }
-  ul.intro-social-buttons>li {
-    display: block;
-    margin-bottom: 20px;
-    padding: 0;
-  }
-  ul.intro-social-buttons>li:last-child {
-    margin-bottom: 0;
-  }
-  .intro-divider {
-    width: 100%;
-  }
+.skills-bar{
+  border-radius: 12px;
+  background-color: aliceblue;
+  height: 25px;
+  width: 80%;
+  padding-left: 10%;
+  padding-bottom: 20px;
+  border: 1px solid #ccc!important;
+  overflow: hidden;
 }
 
-.network-name {
-  text-transform: uppercase;
+.bar-item{
   font-size: 14px;
-  font-weight: 400;
-  letter-spacing: 2px;
-}
-
-.content-section-a {
+  margin: -5px;
+  margin-left:-15%;
+  margin-bottom:10px;
+  color: aliceblue; 
   background-color:darkslategray;
-  padding: 50px 0;
+  padding: 8px 16px;
+  float: left;
+  border-radius: 12px;;
+  display: block;
+  outline: 0;
 }
-
-.content-section-b {
-  background-color: darkslategray;
-  padding: 50px 0;
-  border-top: 1px solid #e7e7e7;
-  border-bottom: 1px solid #e7e7e7;
+.bar-year{
+  font-size: 14px;
+  margin-top: -5px;
+  color: darkslategray;
+  background-color:aliceblue;
+  max-width: 50%;
+  padding: 8px 16px;
+  float: right;
+  width: auto;
+  border: none;
+  display: block;
+  outline: 0;
+  text-align: right;
 }
 
 .section-heading {
+  padding:30px;
+  font-size:24px;
+  align-content:center;
+  font-weight:bold;
   margin-bottom: 30px;
 }
 
-.section-heading-spacer {
-  float: left;
-  width: 200px;
-  border-top: 3px solid #e7e7e7;
-}
-
-.section-heading-spacer2 {
-  float: center;
-  width: 200px;
-  border-top: 3px solid #e7e7e7;
-}
-
-.banner {
-  padding: 100px 0;
-  color: #f8f8f8;
-  background: url(../img/banner-bg.jpg) no-repeat center center;
-  background-size: cover;
-}
-
-.banner h2 {
-  margin: 0;
-  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-  font-size: 3em;
-}
-
-.banner ul {
-  margin-bottom: 0;
-}
-
-.banner-social-buttons {
-  float: right;
-  margin-top: 0;
-}
-
-@media(max-width:1199px) {
-  ul.banner-social-buttons {
-    float: left;
-    margin-top: 15px;
-  }
-}
-
-@media(max-width:767px) {
-  .banner h2 {
-    margin: 0;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-    font-size: 3em;
-  }
-  ul.banner-social-buttons>li {
-    display: block;
-    margin-bottom: 20px;
-    padding: 0;
-  }
-  ul.banner-social-buttons>li:last-child {
-    margin-bottom: 0;
-  }
+.section-text{
+  padding:30px;
+  width:40%;
+  font-size:20px;
 }
 
 footer {
   padding: 50px 0;
   background-color: #f8f8f8;
-}
-
-p.copyright {
-  margin: 15px 0 0;
-}
-.row{
-  width:100%;
-  margin-left: 30px;
-}
-
-.bar {
-  width: 100%; /* Full width */
-  margin-top:3px;
-  margin-bottom:10px;
-  background-color: aliceblue;
-  color:cadetblue;
-}
-
-.myskills {
-  text-align: left; /* Right-align text */
-  padding-right: 20px; /* Add some right padding */
-  line-height: 1.75rem;
-  color: #black; /* White text color */
 }
